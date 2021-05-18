@@ -872,26 +872,26 @@ config KERNEL_IP_MROUTE
 # IPv6 configuration
 #
 
-config KERNEL_IPV6
-	def_bool IPV6
+#config KERNEL_IPV6
+#	def_bool IPV6
 
-if KERNEL_IPV6
+#if KERNEL_IPV6
 
-	config KERNEL_IPV6_MULTIPLE_TABLES
-		def_bool y
+#	config KERNEL_IPV6_MULTIPLE_TABLES
+#		def_bool y
 
-	config KERNEL_IPV6_SUBTREES
-		def_bool y
+#	config KERNEL_IPV6_SUBTREES
+#		def_bool y
 
-	config KERNEL_IPV6_MROUTE
-		bool "Enable IPv6 multicast routing"
-		default y
-		help
-		  Multicast routing requires a multicast routing daemon in
-		  addition to kernel support.
+#	config KERNEL_IPV6_MROUTE
+#		bool "Enable IPv6 multicast routing"
+#		default y
+#		help
+#		  Multicast routing requires a multicast routing daemon in
+#		  addition to kernel support.
 
-	config KERNEL_IPV6_PIMSM_V2
-		def_bool n
+#	config KERNEL_IPV6_PIMSM_V2
+#		def_bool n
 
 endif
 
