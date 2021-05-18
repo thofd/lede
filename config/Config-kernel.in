@@ -893,7 +893,7 @@ config KERNEL_IP_MROUTE
 #	config KERNEL_IPV6_PIMSM_V2
 #		def_bool n
 
-endif
+#endif
 
 #
 # NFS related symbols
