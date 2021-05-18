@@ -128,12 +128,12 @@ menu "Global build settings"
 		help
 		  Adds -g3 to the CFLAGS.
 
-	config IPV6
-		bool
-		prompt "Enable IPv6 support in packages"
-		default y
-		help
-		  Enables IPv6 support in kernel (builtin) and packages.
+	#config IPV6
+	#	bool
+	#	prompt "Enable IPv6 support in packages"
+	#	default y
+	#	help
+	#	  Enables IPv6 support in kernel (builtin) and packages.
 
 	comment "Stripping options"
 
